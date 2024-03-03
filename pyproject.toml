@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "spacy-chunk"
+version = "0.1.0"
+description = ""
+authors = ["Travis James <travis@tribehealthsolutions.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+python-dotenv = "^1.0.1"
+supabase = "^2.4.0"
+langchain = "^0.1.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
